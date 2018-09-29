@@ -142,6 +142,7 @@
             this.nudDifference.Name = "nudDifference";
             this.nudDifference.Size = new System.Drawing.Size(100, 35);
             this.nudDifference.TabIndex = 3;
+            this.nudDifference.Enter += new System.EventHandler(this.enterAnswer);
             // 
             // label3
             // 
@@ -186,6 +187,7 @@
             this.nudProduct.Name = "nudProduct";
             this.nudProduct.Size = new System.Drawing.Size(100, 35);
             this.nudProduct.TabIndex = 4;
+            this.nudProduct.Enter += new System.EventHandler(this.enterAnswer);
             // 
             // label8
             // 
@@ -230,6 +232,7 @@
             this.nudQuotient.Name = "nudQuotient";
             this.nudQuotient.Size = new System.Drawing.Size(100, 35);
             this.nudQuotient.TabIndex = 5;
+            this.nudQuotient.Enter += new System.EventHandler(this.enterAnswer);
             // 
             // label12
             // 
